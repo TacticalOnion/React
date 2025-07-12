@@ -44,7 +44,7 @@ function App(){
     }
 
     if(error){
-        return <div>Hay un error : {error} </div>
+        return <div>Hay un error : {error.message} </div>
     }
 
     return(
